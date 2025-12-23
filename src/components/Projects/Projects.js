@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import voxup from "../../Assets/Projects/voxup.png";
 import comfynest from "../../Assets/Projects/comfynest.png";
+import moviesearch from "../../Assets/Projects/moviesearch.png";
 
 function Projects() {
   return (
@@ -39,6 +40,23 @@ function Projects() {
               title="ComfyNest"
               description="An accessible e-commerce solution built with a focus on furniture display. I led the development of a highly responsive and modular frontend using pure HTML, CSS, JavaScript, and Bootstrap. Features include advanced product filtering, robust user authentication, and a clean, user-centric shopping interface."
               ghLink="https://github.com/mangeshpawar1122/furniture-website"
+            />
+          </Col>
+
+
+
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={moviesearch}
+              isBlog={false}
+              title="Movie-search App"
+              description="A mini project Basic Movie Search App Using React and OMDB "
+              ghLink="https://github.com/Kshitijpatill/Movie-search-app"
+              demoLink="https://movie-search-app-001.netlify.app/"
             />
           </Col>
 
