@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import voxup from "../../Assets/Projects/voxup.png";
 import comfynest from "../../Assets/Projects/comfynest.png";
 import moviesearch from "../../Assets/Projects/moviesearch.png";
+import vyapaarmitra from "../../Assets/Projects/vyapaarmitra.png";
 
 function Projects() {
   return (
@@ -46,20 +47,33 @@ function Projects() {
 
 
         </Row>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-
+          <h3 style={{ color: "white" }}>
+            Mini Project's
+          </h3>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={moviesearch}
               isBlog={false}
               title="Movie-search App"
-              description="A mini project Basic Movie Search App Using React and OMDB "
+              description="A mini project , Basic Movie Search App Using React and OMDB "
               ghLink="https://github.com/Kshitijpatill/Movie-search-app"
               demoLink="https://movie-search-app-001.netlify.app/"
+
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vyapaarmitra}
+              isBlog={false}
+              title="Vyapaar Mitra AI"
+              description="A mini project , Vyapaar Mitra AI to assist MSME sellers on daily basis."
+              ghLink="https://github.com/Kshitijpatill/VyapaarMitra"
+              demoLink="https://vyapaarmitraai.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
